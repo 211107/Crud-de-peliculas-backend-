@@ -17,7 +17,7 @@ public class AnimeController {
 
     @GetMapping
     public String hola() {
-        return "Hola mundo!"
+        return "Hola mundo!";
     }
 
     @GetMapping("listar")
