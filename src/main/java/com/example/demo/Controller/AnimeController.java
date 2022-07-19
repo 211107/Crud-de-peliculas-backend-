@@ -15,6 +15,10 @@ public class AnimeController {
     @Autowired
     private AnimesServices services;
 
+    @GetMapping
+    public String hola() {
+        return "Hola mundo!"
+    }
 
     @GetMapping("listar")
     public List<Animes> listarrrrrr(){
